@@ -1,4 +1,6 @@
 #Tipos de datos
+#Honestamente el creador de los videos usa el _ para hacer referencia a los espacios
+#Yo prefiero el camel case
 
 # str (string)
 nombre = "Capitana python"
