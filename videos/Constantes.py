@@ -1,5 +1,5 @@
 # Constantes en python
-# Aquí no existen en si, solo son un convención
+# Aquí no existen en sí, solo son una convención
 # en otras palabras solo hacemos como que existen
 import math
 
