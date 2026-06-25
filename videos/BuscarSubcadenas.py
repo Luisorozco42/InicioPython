@@ -1,5 +1,5 @@
 # Dato importante con el método find solo encontramos el inicio de la subcadena
-cadena = "Hola Mundo! Mundo Mundo" # a pesar de que tenga mas de una vez la misma palabra este devolverá 6
+cadena = "Hola Mundo! Mundo Mundo" # a pesar de que tenga más de una vez la misma palabra este devolverá 6
 indice = cadena.find("Mundo")
 print(f"Indice de la subcadena: {indice}")
 
