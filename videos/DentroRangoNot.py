@@ -1,0 +1,10 @@
+# Revisar si una variable se encuentra dentro de rango entre 1 y 10
+dato = int(input('Proporciona un dato entero: '))
+
+# Revisamos si está dentro del rango
+esta_dentro_rango = 1 <= dato <= 10
+print(f"Variable está dentro de rango (Entre 1 y 10)?: {esta_dentro_rango}")
+
+# Revisamos la lógica inversa
+esta_dentro_rango = not (1 <= dato <= 10)
+print(f"Variable está fuera rango (Entre 1 y 10)?: {esta_dentro_rango})")
