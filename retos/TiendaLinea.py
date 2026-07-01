@@ -1,10 +1,11 @@
 print("*** Sistema de descuentos ***")
 
+MONTO_DESCUENTO = 1000
 monto_compra = int(input("Ingrese el monto de su compra?\n"))
-miembro_tienda = input("Erres miembro de la tienda (Si/N)?\n")
+miembro_tienda = input("Erres miembro de la tienda (Si/No)?\n")
 es_miembro = miembro_tienda.strip().lower() == "si"
 
-if es_miembro and monto_compra > 1000:
+if es_miembro and monto_compra > MONTO_DESCUENTO:
     descuento = monto_compra * 0.10
     monto_final = monto_compra - descuento
     print(f"""
@@ -13,7 +14,7 @@ if es_miembro and monto_compra > 1000:
     Monto del descuento: {descuento}
     Monto final con descuento: {monto_final}
     """)
-elif es_miembro and monto_compra < 1000:
+elif es_miembro and monto_compra < MONTO_DESCUENTO:
     descuento = monto_compra * 0.05
     monto_final = monto_compra - descuento
     print(f"""
