@@ -4,7 +4,7 @@
 print("*** Sistema de creación y validación de contraseña ***")
 password = input("Ingrese una contraseña de 6 caracteres o más\n")
 
-while password == "" or len(password) <= 6:
+while password.strip() == "" or len(password.strip()) < 6:
     password = input("Por favor corrija el largo de la contraseña\n")
 else:
     print("Su contraseña ha sido creada correctamente. Enhorabuena!")
